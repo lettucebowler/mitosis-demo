@@ -1,3 +1,4 @@
+import Counter from '../../../../packages/mitosis/output/react/src/components/Counter';
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
@@ -20,6 +21,7 @@ export default function Index() {
           >
             Deep Dive Jokes App Tutorial
           </a>
+          <Counter />
         </li>
         <li>
           <a target="_blank" href="https://remix.run/docs" rel="noreferrer">

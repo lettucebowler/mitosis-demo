@@ -43,13 +43,17 @@ importers:
       '@builder.io/mitosis-cli': ^0.0.31
       eslint: ^8.23.1
       prettier: ^2.7.1
+      react: ^18.2.0
+      typescript: ^4.7.4
     dependencies:
       '@builder.io/mitosis': 0.0.71_prettier@2.7.1
       '@builder.io/mitosis-cli': 0.0.31_prettier@2.7.1
       eslint: 8.25.0
       prettier: 2.7.1
+      react: 18.2.0
     devDependencies:
       '@builder.io/eslint-plugin-mitosis': 0.0.10_eslint@8.25.0
+      typescript: 4.8.4
 
 packages:
 
