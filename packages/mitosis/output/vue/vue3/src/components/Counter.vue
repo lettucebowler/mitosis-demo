@@ -1,14 +1,5 @@
 <template>
-  <div>
-    <button
-      @click="
-        count += 1;
-        console.log(state);
-      "
-    >
-      {{ count }}
-    </button>
-  </div>
+  <button @click="count = count + 1">{{ count }}</button>
 </template>
 
 <script>

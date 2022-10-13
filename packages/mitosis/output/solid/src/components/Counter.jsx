@@ -1,13 +1,10 @@
 import { createSignal } from "solid-js";
 function Counter(props) {
   const [count, setCount] = createSignal(0);
-  return <div>
-      <button onClick={event => {
-      setCount(1);
-      console.log(state);
-    }}>
-        {count()}
-      </button>
-    </div>;
+  return <button onClick={event => {
+    setCount(count() + 1);
+  }}>
+      {count()}
+    </button>;
 }
 export default Counter;

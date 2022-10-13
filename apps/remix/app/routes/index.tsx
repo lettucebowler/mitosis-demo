@@ -21,7 +21,6 @@ export default function Index() {
           >
             Deep Dive Jokes App Tutorial
           </a>
-          <Counter />
         </li>
         <li>
           <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
@@ -29,6 +28,9 @@ export default function Index() {
           </a>
         </li>
       </ul>
+      <div>
+        <Counter />
+      </div>
     </div>
   );
 }
